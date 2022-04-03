@@ -1,18 +1,18 @@
 # Supermarkets_Prices
 This is a repository with a database that contains prices of a group of supermarkets in South America and Europe. The data could vary due to different availability and offers offered, date to date.
 
-Columnas de la base de datos:
+Database Columns:
 
-- Ano: Indica el año en el que se registraron los precios.
-- Mes: Indica el mes en el que se registraron los precios.
-- Categoria: Indica la categoría a la que pertenece el registro.
-- Sub-categoria: Indica la subcategoría a la que pertenece el registro.
-- Producto: Especifica el producto que se registra.
-- Pais: Indica el país al cual pertenece el registro.
-- Cadena: Indica la cadena de supermercado al cual pertenece el registro.
-- Marca: Indica la marca a la que pertenece el producto que se registra.
-- Marca_propia: Variable dummie que indica si la marca es una marca blanca del supermercado (1) o no (0).
-- Peso_Volumen: Indica el contenido neto en kilogramos o litros del producto que se registra.
-- Promocion: Variable dummie que indica si el producto tiene un descuento unitario (1) o no (0).
-- Precio_Normal: Indica el precio de lista del producto en moneda local.
-- Precio_Oferta: Indica el precio final que se tiene para el producto en moneda local, aplicado ya el descuento.
+- Ano: Indicates the year in which the prices were recorded.
+- Mes: Indicates the month in which the prices were recorded.
+- Categoria: Indicates the category to which the record belongs.
+- Sub-categoria: Indicates the subcategory to which the record belongs.
+- Producto: Specifies the product that is registered.
+- Pais: Indicates the country to which the record belongs.
+- Cadena: Indicates the supermarket chain to which the record belongs.
+- Marca: Indicates the brand to which the registered product belongs.
+- Marca_propia: Dummy variable that indicates whether the brand is a white supermarket brand (1) or not (0).
+- Peso_Volumen: Indicates the net content in kilograms or liters of the product being registered.
+- Promocion: Dummy variable that indicates if the product has a unit discount (1) or not (0).
+- Precio_Normal: Indicates the list price of the product in local currency.
+- Precio_Oferta: Indicates the final price for the product in local currency, with the discount already applied.
